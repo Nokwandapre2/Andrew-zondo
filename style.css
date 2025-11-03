@@ -1,0 +1,131 @@
+/* Navigation Bar Styles */
+#logo {
+    display: flex;
+    align-items: center;
+    gap: 16px; /* space between image and text */
+}
+
+#logo img {
+    margin-right: 0; /* Remove margin since flex gap handles spacing */
+    width: 50px;
+    height: auto;
+
+}
+
+#logo-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#logo-text h1 {
+    margin: 0;
+    color: darkblue;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#logo-text p {
+    margin: 0;
+    font-size: 14px;
+    font-style: italic;
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    position: relative;
+    padding: 10px 15px;
+    display: inline;
+    height: auto;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+li a:hover {
+    background-color:rgb(240,240,240);
+    padding: 10px 15px;
+    border-radius: 12px;
+    color: darkblue;
+}
+
+/* Hero Section Styles */
+#Hero-section ::after{
+     background-image: url("images/kids.jpg");
+     filter: brightness(50%);
+     background-size: cover;
+     background-color: blue;
+     background-position: center;
+     content: "";
+     position: absolute;
+     height: 500px;
+     top: 80px;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     opacity: rgba(0, 0, 255, 0.5);
+     z-index: -1;
+ 
+ }
+ 
+ #Hero-section h1{
+    
+     text-align: center;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: #ffffff;
+     font-size: 60px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+ }
+ 
+ #Hero-section p{
+     text-align: center;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: white;
+     font-size: 20px;
+     margin-top: 0px;
+     margin-bottom: 40px;
+ }
+  #Hero-section button{
+
+    background-color: rgb(255, 204, 0);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  }
+
+ #Hero-section .button-group {
+     display: flex;
+     justify-content: center;
+     margin-top: 20px;
+ } 
+ 
+ #Hero-section button:hover {
+     padding: 10px 15px;
+     background-color: rgb(220, 194, 66);
+}
+
+
+  #Hero-section .button-group {
+     display: flex;
+     justify-content: center;
+     margin-top: 20px;
+}
+
+ #Hero-section button:hover {
+     padding: 10px 15px;
+     background-color: rgb(220, 194, 66);
+}
